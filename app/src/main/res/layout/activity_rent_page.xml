@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C0FBE8"
+    tools:context=".RentPage">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="195dp"
+        android:layout_height="338dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.013"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.358"
+        tools:ignore="MissingConstraints">
+
+        <RadioGroup
+            android:id="@+id/radiogroup"
+            android:layout_width="144dp"
+            android:layout_height="272dp"
+            android:layout_gravity="bottom|center_horizontal">
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Count of Bikes" />
+
+            <RadioButton
+                android:id="@+id/bike1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1 bike" />
+
+            <RadioButton
+                android:id="@+id/bike2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2 bike" />
+
+            <RadioButton
+                android:id="@+id/bike3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3 bike" />
+
+            <RadioButton
+                android:id="@+id/bike4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4 bike" />
+
+            <RadioButton
+                android:id="@+id/bike5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5 bike" />
+        </RadioGroup>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="406dp"
+        android:layout_height="146dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.592"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.006"
+        tools:ignore="MissingConstraints" >
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Available Credits"
+            android:textColor="@color/purple_700"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:textSize="24sp"
+            android:layout_gravity="top|left"
+            />
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0.0 ₺"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/purple_700"
+            android:layout_marginTop="10dp"
+            android:textSize="24sp"
+            android:layout_gravity="top|right"
+            />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:text="Buy Credit" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="195dp"
+        android:layout_height="338dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.99"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.358"
+        tools:ignore="MissingConstraints">
+
+        <RadioGroup
+            android:id="@+id/RadioGroup"
+            android:layout_width="144dp"
+            android:layout_height="272dp"
+            android:layout_gravity="bottom|center_horizontal">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Max Time of Usage" />
+
+            <RadioButton
+                android:id="@+id/hour1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1 hour" />
+
+            <RadioButton
+                android:id="@+id/hour2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2 hour" />
+
+            <RadioButton
+                android:id="@+id/hour3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3 hour" />
+
+            <RadioButton
+                android:id="@+id/hour4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4 hour" />
+
+            <RadioButton
+                android:id="@+id/hour5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5 hour" />
+        </RadioGroup>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="399dp"
+        android:layout_height="192dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.922"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|left"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Total Price"
+            android:textColor="@color/purple_700"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|right"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="0.0 ₺"
+            android:textColor="@color/purple_700"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="298dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="20dp"
+            android:text="Rent"
+            android:textSize="24sp" />
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
